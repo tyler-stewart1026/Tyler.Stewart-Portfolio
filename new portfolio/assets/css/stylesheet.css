@@ -1,0 +1,346 @@
+/* body {
+    background-color: #181463;
+}*/
+
+/* SideNav */
+.sideNavPic {
+  height: 250px;
+  width: 300px;
+}
+
+.sidenav {
+  background-color: #181463
+}
+
+/* carousel */
+.carousel {
+  background-color: white;
+}
+
+/* actionButton */
+.buttonTarget {
+  background-color: #f3a903;
+}
+
+/* test */
+/* *************************/
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+/* Override */
+#main {
+  width: 100%;
+  padding: 0;
+}
+
+.content-asset p {
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+/* Helpers */
+/**************************/
+.margin-top-10 {
+  padding-top: 10px;
+}
+
+.margin-bot-10 {
+  padding-bottom: 10px;
+}
+
+/* Typography */
+/**************************/
+#parallax-world-of-tyler h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#parallax-world-of-tyler h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  z-index: 10;
+  opacity: .9;
+}
+
+#parallax-world-of-tyler h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height: 0;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: black;
+}
+
+#parallax-world-of-tyler p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.first-character {
+  font-weight: 400;
+  float: left;
+  font-size: 84px;
+  line-height: 64px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ut {
+  color: #3b8595;
+}
+
+.ny {
+  color: #3d3c3a;
+}
+
+.atw {
+  color: #c48660;
+}
+
+/* Section - Title */
+/**************************/
+#parallax-world-of-tyler .title {
+  background: white;
+  padding: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#parallax-world-of-tyler .title h1 {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+/* Section - Block */
+/**************************/
+#parallax-world-of-tyler .block {
+  background: white;
+  padding: 60px;
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+#parallax-world-of-tyler .block-gray {
+  background: #f2f2f2;
+  padding: 60px;
+}
+
+#parallax-world-of-tyler .section-overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.70;
+}
+
+/* Section - Parallax */
+/**************************/
+#parallax-world-of-tyler .parallax-one {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/dual-season.png);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#parallax-world-of-tyler .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(../images/code-placeholder.png);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#parallax-world-of-tyler .parallax-three {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* Extras */
+/**************************/
+#parallax-world-of-tyler .line-break {
+  border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-tyler .block {
+    padding: 40px;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #parallax-world-of-tyler .block {
+    padding: 30px;
+    width: 420px;
+  }
+
+  #parallax-world-of-tyler h2 {
+    font-size: 30px;
+  }
+
+  #parallax-world-of-tyler .block {
+    padding: 30px;
+  }
+
+  #parallax-world-of-tyler .parallax-one,
+  #parallax-world-of-tyler .parallax-two,
+  #parallax-world-of-tyler .parallax-three {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #parallax-world-of-tyler .block {
+    padding: 30px 15px;
+    width: 290px;
+  }
+}
+
+/* test 2 */
+/*
+
+All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+        
+The 'supports' rule will only run if your browser supports CSS grid.
+
+Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+
+*/
+/* 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500); */
+
+:root {
+  /* Base font size */
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.heading {
+  /* font-family: "Montserrat", Arial, sans-serif; */
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  padding: 3.5rem 0;
+  color: #1a1a1a;
+}
+
+.heading span {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  /* Compensate for excess margin on outer gallery flex items */
+  margin: -1rem -1rem;
+}
+
+.gallery-item {
+  /* Minimum width of 24rem and grow to fit available space */
+  flex: 1 0 24rem;
+  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+  margin: 1rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .gallery,
+  .gallery-item {
+    margin: 0;
+  }
+}
