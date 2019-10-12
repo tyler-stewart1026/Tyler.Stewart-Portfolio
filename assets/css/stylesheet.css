@@ -2,6 +2,10 @@
     background-color: #181463;
 }*/
 
+.navBarLinks a {
+  font-size: 20px !important;
+}
+
 /* SideNav */
 .sideNavPic {
   height: 250px;
@@ -20,6 +24,7 @@
 /* actionButton */
 .buttonTarget {
   background-color: #f3a903;
+  font-size: 2.5rem !important;
 }
 
 /* test */
@@ -282,15 +287,15 @@ body {
   padding: 0 2rem 2rem;
 }
 
-.heading {
-  /* font-family: "Montserrat", Arial, sans-serif; */
+/* .heading {
+  font-family: "Montserrat", Arial, sans-serif; 
   font-size: 4rem;
   font-weight: 500;
   line-height: 1.5;
   text-align: center;
   padding: 3.5rem 0;
   color: #1a1a1a;
-}
+} */
 
 .heading span {
   display: block;
@@ -344,3 +349,4 @@ Remove or comment-out the code block below to see how the browser will fall-back
     margin: 0;
   }
 }
+
