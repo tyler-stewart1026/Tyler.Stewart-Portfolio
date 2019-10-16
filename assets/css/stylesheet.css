@@ -1,30 +1,130 @@
-/* body {
-    background-color: #181463;
-}*/
+body {
+  background-color: #000b18;
+  /* margin: 0; */
 
-.navBarLinks a {
-  font-size: 20px !important;
 }
 
-/* SideNav */
-.sideNavPic {
-  height: 250px;
-  width: 300px;
-}
-
-.sidenav {
-  background-color: #181463
-}
-
-/* carousel */
-.carousel {
-  background-color: white;
+svg {
+  width: 100%;
+  height: 100vh;
 }
 
 /* actionButton */
 .buttonTarget {
   background-color: #f3a903;
-  font-size: 2.5rem !important;
+}
+
+
+/* #contact {
+  margin-top: 80px !important;
+} */
+
+form {
+  margin-top: 80px;
+}
+
+.hex .text {
+  width: 100%;
+  height: auto;
+  background-color: rgba(160, 160, 160, .6);
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+  position: absolute;
+  z-index: 30;
+  margin-top: 200px;
+}
+
+.hexProfPic {
+  margin: auto;
+  margin-top: 150px;
+}
+
+.hex img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.hexImage {
+  position: relative;
+  transition: all .2s ease-in-out;
+}
+
+.hexImage:hover {
+  transform: scale(1.1);
+}
+
+.hexagon-gallery {
+  margin: auto;
+  margin-top: 50px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 14px;
+  padding-bottom: 50px;
+}
+
+.hex {
+  display: flex;
+  position: relative;
+  width: 240px;
+  height: 265px;
+  background-color: #424242;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hex:first-child {
+  grid-row-start: 1;
+  grid-column: 2 / span 2;
+}
+
+.hex:nth-child(2) {
+  grid-row-start: 1;
+  grid-column: 4 / span 2;
+}
+
+.hex:nth-child(3) {
+  grid-row-start: 1;
+  grid-column: 6 / span 2;
+}
+
+.hex:nth-child(4) {
+  grid-row-start: 2;
+  grid-column: 1 / span 2;
+}
+
+.hex:nth-child(5) {
+  grid-row-start: 2;
+  grid-column: 3 / span 2;
+}
+
+.hex:nth-child(6) {
+  grid-row-start: 2;
+  grid-column: 5 / span 2;
+}
+
+.hex:nth-child(7) {
+  grid-row-start: 2;
+  grid-column: 7 / span 2;
+}
+
+.hex:nth-child(8) {
+  grid-row-start: 3;
+  grid-column: 2 / span 2;
+}
+
+.hex:nth-child(9) {
+  grid-row-start: 3;
+  grid-column: 4 / span 2;
+}
+
+.hex:nth-child(10) {
+  grid-row-start: 3;
+  grid-column: 6 / span 2;
 }
 
 /* test */
@@ -32,19 +132,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
-/* Override */
-#main {
-  width: 100%;
-  padding: 0;
-}
 
-.content-asset p {
-  margin: 0 auto;
-}
-
-.breadcrumb {
-  display: none;
-}
 
 /* Helpers */
 /**************************/
@@ -116,9 +204,6 @@
   color: #3d3c3a;
 }
 
-.atw {
-  color: #c48660;
-}
 
 /* Section - Title */
 /**************************/
@@ -127,6 +212,7 @@
   padding: 60px;
   margin: 0 auto;
   text-align: center;
+  margin-top: 80px;
 }
 
 #parallax-world-of-tyler .title h1 {
@@ -141,12 +227,8 @@
   padding: 60px;
   width: 820px;
   margin: 0 auto;
+  margin-top: 80px;
   text-align: justify;
-}
-
-#parallax-world-of-tyler .block-gray {
-  background: #f2f2f2;
-  padding: 60px;
 }
 
 #parallax-world-of-tyler .section-overlay-mask {
@@ -159,57 +241,16 @@
   opacity: 0.70;
 }
 
-/* Section - Parallax */
-/**************************/
-#parallax-world-of-tyler .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(../images/dual-season.png);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-#parallax-world-of-tyler .parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(../images/code-placeholder.png);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-#parallax-world-of-tyler .parallax-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  background-image: url(https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?dpr=1&auto=format&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb&crop=);
-  background-attachment: fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
 /* Extras */
 /**************************/
 #parallax-world-of-tyler .line-break {
   border-bottom: 1px solid black;
+  width: 150px;
+  margin: 0 auto;
+}
+
+#parallax-world-of-tyler .line-break2 {
+  border-bottom: 3px solid black;
   width: 150px;
   margin: 0 auto;
 }
@@ -249,104 +290,6 @@
   #parallax-world-of-tyler .block {
     padding: 30px 15px;
     width: 290px;
-  }
-}
-
-/* test 2 */
-/*
-
-All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
-        
-The 'supports' rule will only run if your browser supports CSS grid.
-
-Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
-
-*/
-/* 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:500); */
-
-:root {
-  /* Base font size */
-  font-size: 10px;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  min-height: 100vh;
-  background-color: #fafafa;
-}
-
-.container {
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 0 2rem 2rem;
-}
-
-/* .heading {
-  font-family: "Montserrat", Arial, sans-serif; 
-  font-size: 4rem;
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: center;
-  padding: 3.5rem 0;
-  color: #1a1a1a;
-} */
-
-.heading span {
-  display: block;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  /* Compensate for excess margin on outer gallery flex items */
-  margin: -1rem -1rem;
-}
-
-.gallery-item {
-  /* Minimum width of 24rem and grow to fit available space */
-  flex: 1 0 24rem;
-  /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
-  margin: 1rem;
-  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-}
-
-.gallery-image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 400ms ease-out;
-}
-
-.gallery-image:hover {
-  transform: scale(1.15);
-}
-
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
-
-@supports (display: grid) {
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-    grid-gap: 2rem;
-  }
-
-  .gallery,
-  .gallery-item {
-    margin: 0;
   }
 }
 
