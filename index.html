@@ -2,13 +2,8 @@
 
 <head>
     <title>Tyler Stewart Portfolio</title>
-
-    <!-- test -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
-    <!-- cursive -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet"> -->
     <!-- cursive clean code -->
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -35,27 +30,26 @@
                 </p>
             </div>
         </div>
-        <!-- <img class="headerImg" src="assets/images/black-and-gold.png"> -->
     </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark border-top" style="background-color: #2d2d2d;">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark border-top" style="background-color: #111111;">
         <div class="container">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <img class="navbar-brand vectorImg load-hidden" src="assets/images/TylerLogoGoldSmall.png">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item nav1 load-hidden">
                         <a class="nav-link" href="https://github.com/tyler-stewart1026" target="_blank">Git
                             Hub</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav2 load-hidden">
                         <a class="nav-link" href="https://www.linkedin.com/in/tyler-stewart-93233118a/"
                             target="_blank">Linkedin</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav3 load-hidden">
                         <a class="nav-link" href="assets/images/Resume.TylerStewart.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
@@ -72,24 +66,21 @@
                 <div class="row">
                     <div class="services2 col-md-4 load-hidden">
                         <h2>Responsive</h2><br>
-                        <i class="iconReveal fas fa-square-full fa-2x fa-rotate-90 serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
+                        <p><span class="first-character2">A</span>ll my work is mobile responsive and can be used on any
+                            device</p>
                     </div>
                     <div class="services1 col-md-4 load-hidden">
                         <h2>Elegant Design</h2><br>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
+                        <p><span class="first-character2">I</span> enjoy creating things that are pleasing to look at.
+                            I put a lot of effort into creating the
+                            pleasing web pages.
+                        </p>
                     </div>
                     <div class="services3 col-md-4 load-hidden">
                         <h2>Clean Code</h2><br>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
-                        <i class="iconReveal fab fa-github fa-2x serviceIcon load-hidden"></i>
+                        <p>
+                            <span class="first-character2">M</span>y code is all well maintained, updated and clean.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -113,7 +104,7 @@
                     </div>
                     <div class="block col-md-8 border border-dark load-hidden aboutMe">
                         <div class="container aboutMe">
-                            <p><span class="first-character sc">M</span>y name is Tyler Stewart. I am an apiring
+                            <p><span class="first-character sc">M</span>y name is Tyler Stewart. I am an aspiring
                                 full-stack
                                 Web
                                 Developer from Salt Lake City, Utah. Born in Roosevelt, Utah and moving away, I have
@@ -157,110 +148,182 @@
             <div class="gallery">
                 <div class="row mt-4 row1 load-hidden">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/you-are-what-you-eat.png"
-                                alt="Water washing over fresh greens">
-                            <div class="overlay">
-                                <h2>You Are What You Eat!</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/Project-1/">
-                                    <i class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/you-are-what-you-eat.png"
+                                    alt="Water washing over fresh greens">
+                                <div class="overlay">
+                                    <h2>You Are What You Eat!</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/Project-1/">
+                                        <i class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/parrot.png"
-                                alt="Macaw with right wing extended black background">
-                            <div class="overlay">
-                                <h2>Bird Trivia game</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/Triviagame/"><i
-                                        class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/parrot.png"
+                                    alt="Macaw with right wing extended black background">
+                                <div class="overlay">
+                                    <h2>Bird Trivia game</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/Triviagame/"><i
+                                            class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/crossbones.png"
-                                alt="White Skull and Crossbones">
-                            <div class="overlay">
-                                <h2>Pirate Word Guessing Game</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/Word-Guess-Game/"><i
-                                        class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/crossbones.png"
+                                    alt="White Skull and Crossbones">
+                                <div class="overlay">
+                                    <h2>Pirate Word Guessing Game</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/Word-Guess-Game/"><i
+                                            class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/gems.png" alt="Gems over black background">
-                            <div class="overlay">
-                                <h2>Gem number guess</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/unit-4-game/"><i
-                                        class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/gems.png"
+                                    alt="Gems over black background">
+                                <div class="overlay">
+                                    <h2>Gem number guess</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/unit-4-game/"><i
+                                            class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4 mb-4 row2 load-hidden">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/giphy.png" alt="Giphy logo">
-                            <div class="overlay">
-                                <h2>GIPHY API</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/GIPHY-API/"><i
-                                        class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/giphy.png" alt="Giphy logo">
+                                <div class="overlay">
+                                    <h2>GIPHY API</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/GIPHY-API/"><i
+                                            class="fab fa-github fa-2x"></i></a>
+                                    <br>
+                                    <a class="info" href="https://github.com/tyler-stewart1026/GIPHY-API.git">GIPHY
+                                        API</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/train.png" alt="">
-                            <div class="overlay">
-                                <h2>Train Database</h2>
-                                <a class="info" href="https://tyler-stewart1026.github.io/train-database/">Train
-                                    Database</a>
-                                <br>
-                                <a class="info" href="https://tyler-stewart1026.github.io/train-database/"><i
-                                        class="fab fa-github fa-2x" style="--fa-primary-color: gold;"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/train.png" alt="">
+                                <div class="overlay">
+                                    <h2>Train Database</h2>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/train-database/"><i
+                                            class="fab fa-github fa-2x" style="--fa-primary-color: #C5A568;"></i></a>
+                                    <br>
+                                    <a class="info" href="https://tyler-stewart1026.github.io/train-database/">TRAIN
+                                        DATABASE</a>
+
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/code-placeholder.png" alt="">
-                            <div class="overlay">
-                                <h2>Liri Bot Node Application</h2>
-                                <a class="info" href="https://github.com/tyler-stewart1026/liri-bot.git"><i
-                                        class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/code-placeholder.png" alt="">
+                                <div class="overlay">
+                                    <h2>Liri Bot Node Application</h2>
+                                    <a class="info" href="https://github.com/tyler-stewart1026/liri-bot.git"><i
+                                            class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                        <div class="hovereffect">
-                            <img class="img projectImg" src="assets/images/lap.jpg" alt="">
-                            <div class="overlay">
-                                <h2>Hover effect 4</h2>
-                                <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/lap.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>More Good To Come!</h2>
+                                    <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row2 mt-4 mb-4 load-hidden">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/lap.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>More Good To Come!</h2>
+                                    <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/lap.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>More Good To Come!</h2>
+                                    <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/lap.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>More Good To Come!</h2>
+                                    <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="galleryDiv">
+                            <div class="hovereffect">
+                                <img class="img projectImg" src="assets/images/lap.jpg" alt="">
+                                <div class="overlay">
+                                    <h2>More Good To Come!</h2>
+                                    <a class="info" href="#"><i class="fab fa-github fa-2x"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer" style="background-color: #111111;">
+        <div class="container">
+            <p class="footerText">Copyright Tyler Stewart 2019&copy;</p>
+        </div>
+    </div>
+    <!-- JQuery CDN -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <!-- Bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
 
-        <!-- JQuery CDN -->
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-        </script>
-        <!-- Bootstrap CDN -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
-        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-        <script src="assets/javascript/app.js"></script>
-
-        </html>
+    </html>

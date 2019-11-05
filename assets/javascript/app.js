@@ -49,5 +49,27 @@ ScrollReveal().reveal('.row2', {
     duration: 1500
 })
 
-ScrollReveal().reveal('.iconReveal', {
+ScrollReveal().reveal('.vectorImg', {
+    origin: "left", 
+    distance: "50px", 
+    delay: 300, 
+    duration: 1100
+})
+ScrollReveal().reveal('.nav1', {
+    origin: "right", 
+    distance: "75px", 
+    delay: 300, 
+    duration: 1100
+})
+ScrollReveal().reveal('.nav2', {
+    origin: "right", 
+    distance: "75px", 
+    delay: 400, 
+    duration: 1100
+})
+ScrollReveal().reveal('.nav3', {
+    origin: "right", 
+    distance: "75px", 
+    delay: 500, 
+    duration: 1100
 })
